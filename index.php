@@ -199,6 +199,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/thierry-seguro-952610137/"></a>
                             </div>
                         </div>
                     </div>
@@ -212,6 +213,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/alexandre-desvall%C3%A9es-93b4a0122/"></a>
                             </div>
                         </div>
                     </div>
@@ -225,6 +227,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/mathis-aubry-b23418145/"></a>
                             </div>
                         </div>
                     </div>
@@ -238,6 +241,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/charles-huet-developpeur-web/"></a>
                             </div>
                         </div>
                     </div>
@@ -251,6 +255,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/arthur-gilot-3b27b913a/"></a>
                             </div>
                         </div>
                     </div>
@@ -264,6 +269,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/faustine-badier-079606132/"></a>
                             </div>
                         </div>
                     </div>
@@ -277,6 +283,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="#"></a>
                             </div>
                         </div>
                     </div>
@@ -290,6 +297,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/nicolas-bolliet-b727a512a/"></a>
                             </div>
                         </div>
                     </div>
@@ -303,6 +311,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="#"></a>
                             </div>
                         </div>
                     </div>
@@ -316,6 +325,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/jfweb/"></a>
                             </div>
                         </div>
                     </div>
