@@ -123,7 +123,7 @@ a:focus {
 }
 a:hover,
 a:focus {
-    color: #7beec7;
+    color: #f4f4f4;
     text-decoration: none;
 }
 a,
@@ -282,7 +282,7 @@ ul.sublist {
 .second-title hr {
     width: 22px;
     height: 2px;
-    background: #56c8d4;
+    background: #f4f4f4;
     float: left;
 }
 .second-title .slogan {
@@ -425,8 +425,8 @@ ul.sublist {
     font-weight: 700;
 }
 .btn-1:hover {
-    border: 1px solid #56c8d4;
-    box-shadow: 200px 0 0 0 #56c8d4 inset;
+    border: 1px solid #f4f4f4;
+    box-shadow: 200px 0 0 0 #f4f4f4 inset;
     color: #fff;
 }
 
@@ -492,10 +492,12 @@ a:hover>span.site-name{
     font-family: 'azedobold';
     font-size: 60px;
     letter-spacing: 8px;
+    color: white;
 }
 .slider-description-inner h1 span {
     font-family: 'azedolight';
-    background: #7beec7;
+    background: white;
+    color: #000;
     padding: 22px;
     font-weight: 100;
     margin-left: 10px;

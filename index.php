@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link rel="icon" type="image/ico" href="img/logo.png">
 
     <!-- Modernizer & Respond js -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -77,14 +77,13 @@
         <div class="slider-wrapper">
             <div class="slider-description">
                 <div class="slider-description-inner">
-                    <h1><span>Friday</span></h1>
+                    <h1>Friday<span>Agency</span></h1>
                 </div>
                 <div class="cd-intro">
                     <div class="cd-headline clip">
                         <span class="cd-words-wrapper">
                             <b class="is-visible">Workshop 2019</b>
-                            <b>10 people</b>
-                            <b>multiple projects</b>
+                            <b>Campus Ynov Nantes</b>
                         </span>
                     </div>
                 </div>
@@ -111,13 +110,19 @@
                     </article>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                <div class="row">
-                    <div id="history-images" class="owl-carousel">
-                        <div><img class="img-responsive center-block" src="img/about_img.jpg" alt="About"></div>
-                        <div><img class="img-responsive center-block" src="img/about_img2.jpg" alt="About"></div>
-                        <div><img class="img-responsive center-block" src="img/about_img3.jpg" alt="About"></div>
-                    </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container margin-top">
+        <div class="main-title">
+            <h1>PROJECTS</h1>
+            <hr>
+        </div>
+        <div class="col-md-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+            <div class="row">
+                <div id="history-images" class="owl-carousel">
+                    <div><img class="img-responsive center-block" src="img/projects/image_1.png" alt="About"></div>
                 </div>
             </div>
         </div>
@@ -126,9 +131,8 @@
     <!-- Chosing Us -->
     <div class="container margin-top">
         <div class="main-title">
-            <h1>WHY CHOOSE US?</h1>
+            <h1>VALEUR</h1>
             <hr>
-            <h6>Except to obtain some advantage from it</h6>
         </div>
         <div class="services-home-page">
             <div class="row">
@@ -160,6 +164,15 @@
                         happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Valeur -->
+    <div class="container margin-top">
+    <div class="main-title">
+            <h1>WHY CHOOSE US?</h1>
+            <hr>
+            <h6>Except to obtain some advantage from it</h6>
         </div>
     </div>
 
