@@ -58,5 +58,17 @@ jQuery(window).load(function($) {
         });
     });
 
+    jQuery.getJSON( "../traduction/en.json", ( data ) => {
+        var items = [];
+        //$.each( data, ( key, val ) => {
+          //items.push( "<li id='" + key + "'>" + val + "</li>" );
+        //});
+       
+        //$( "<ul/>", {
+          //"class": "my-new-list",
+          //html: items.join( "" )
+        //}).appendTo( "body" );
+        console.log(data)
+      });
 
 });
