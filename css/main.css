@@ -550,10 +550,11 @@ a:hover>span.site-name{
     right: 0;
     width: 1px;
     height: 100%;
-    background-color: #000;
+    background-color: white;
 }
 .cd-headline.clip b {
     font-family: 'Lekton', sans-serif;
+    color: white;
     opacity: 0;
 }
 .cd-headline.clip b.is-visible {

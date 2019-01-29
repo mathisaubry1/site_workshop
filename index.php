@@ -189,7 +189,7 @@
             <div class="js-masonry">
                 <div class="row" id="work-grid">
                     <!-- Begin of Thumbs Portfolio -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix network">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix network">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_1.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -202,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix developer">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix developer">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_2.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix developer">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix developer">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_3.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -228,7 +228,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix developer">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix developer">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_4.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -241,7 +241,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix graphist">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix graphist">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_5.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -254,7 +254,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix marketing">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix marketing">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_6.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -267,7 +267,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix graphist">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix graphist">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_7.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -280,7 +280,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix marketing">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix marketing">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_8.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -293,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix developer">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix developer">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_9.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
@@ -306,7 +306,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix developer">
+                    <div class="col-md-2 col-sm-4 col-xs-12 mix developer">
                         <div class="img home-portfolio-image">
                             <img src="img/home-portfolio/img_9.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
