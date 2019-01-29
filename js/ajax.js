@@ -57,6 +57,4 @@ jQuery(window).load(function($) {
             self.text('Error while loading!');
         });
     });
-
-
 });

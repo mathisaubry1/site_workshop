@@ -3126,3 +3126,6 @@ a img.aligncenter {
 .alert-danger .alert-link {
   color: #d2d2d2;
 }
+.flags:hover {
+    cursor: pointer;
+}

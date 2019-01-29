@@ -1,5 +1,14 @@
 "use strict";
 
+//Tanslation
+$("#french").click(() => {
+    translation("fr");
+});
+
+$("#english").click(() => {
+    translation("en");
+});
+
 //Esc Key 
 $.fn.escape = function(callback) {
     return this.each(function() {
@@ -360,7 +369,22 @@ jQuery(document).ready(function($) {
     //WOW Animation init 
     new WOW().init();
 
+    //Translation loading
+    translation(navigator.language.substring(0, 2));  
+
 });
+
+// Translation function
+function translation(locale) {
+    jQuery.getJSON( `traduction/${locale}.json`, ( data ) => {
+        var items = [];
+        $.each( data, ( key, val ) => {
+          items.push(val);
+        });
+        $("#article").html(items[0]);
+        console.log(data)
+      });
+}
 
 //Window Load
 jQuery(window).load(function($) {
