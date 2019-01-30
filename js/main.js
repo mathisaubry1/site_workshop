@@ -1,18 +1,18 @@
 "use strict";
 
 //Tanslation
-// $("#french").click(() => {
-//     translation("fr");
-// });
+$("#french").click(() => {
+    translation("fr");
+});
 
-// $("#english").click(() => {
-//     translation("en");
-// });
+$("#english").click(() => {
+    translation("en");
+});
 
 //Esc Key 
-$.fn.escape = function(callback) {
-    return this.each(function() {
-        jQuery(document).on("keydown", this, function(e) {
+$.fn.escape = function (callback) {
+    return this.each(function () {
+        jQuery(document).on("keydown", this, function (e) {
             var keycode = ((typeof e.keyCode != 'undefined' && e.keyCode) ? e.keyCode : e.which);
             if (keycode === 27) {
                 callback.call(this, e);
@@ -42,7 +42,7 @@ function Navigation() {
         }
 
         // close the menu element if the target it´s not the menu element or one of its descendants..
-        content.addEventListener('click', function(ev) {
+        content.addEventListener('click', function (ev) {
             var target = ev.target;
             if (isOpen && target !== openbtn) {
                 toggleMenu();
@@ -59,7 +59,7 @@ function Navigation() {
         isOpen = !isOpen;
     }
 
-    navigationRight.escape(function() {
+    navigationRight.escape(function () {
         if (isOpen) {
             classie.remove(bodyEl, 'show-menu');
             classie.remove(openbtn, 'active')
@@ -72,7 +72,7 @@ function Navigation() {
 
 //Tabs
 function Tabs() {
-    [].slice.call(document.querySelectorAll('.ef-tabs')).forEach(function(el) {
+    [].slice.call(document.querySelectorAll('.ef-tabs')).forEach(function (el) {
         new CBPFWTabs(el);
     });
 };
@@ -82,9 +82,9 @@ function getDribbbleThumbs() {
     jQuery.jribbble.setToken(dribbbleToken);
     jQuery.jribbble.users(dribbbleName).shots({
         per_page: numberOfItems
-    }).then(function(shots) {
+    }).then(function (shots) {
         var html = [];
-        shots.forEach(function(shot) {
+        shots.forEach(function (shot) {
             html.push('<div class="col-md-4 col-sm-4 col-xs-12 mix">');
             html.push('<div class="img dribbble-shot">');
             html.push('<img src="' + shot.images.normal + '">');
@@ -111,20 +111,20 @@ function getSocialButtons() {
 };
 
 //Scroll Top 
-$.fn.scrollToTop = function() {
+$.fn.scrollToTop = function () {
     jQuery(this).hide().removeAttr('href');
     if (jQuery(window).scrollTop() != '0') {
         jQuery(this).fadeIn('slow')
     }
     var scrollDiv = jQuery(this);
-    jQuery(window).scroll(function() {
+    jQuery(window).scroll(function () {
         if (jQuery(window).scrollTop() == '0') {
             jQuery(scrollDiv).fadeOut('slow')
         } else {
             jQuery(scrollDiv).fadeIn('slow')
         }
     });
-    jQuery(this).on('click', function() {
+    jQuery(this).on('click', function () {
         jQuery('html, body').animate({
             scrollTop: 0
         }, 'slow')
@@ -133,22 +133,22 @@ $.fn.scrollToTop = function() {
 
 //Detect Mobile
 var isMobile = {
-    Android: function() {
+    Android: function () {
         return navigator.userAgent.match(/Android/i);
     },
-    BlackBerry: function() {
+    BlackBerry: function () {
         return navigator.userAgent.match(/BlackBerry/i);
     },
-    iOS: function() {
+    iOS: function () {
         return navigator.userAgent.match(/iPhone|iPad|iPod/i);
     },
-    Opera: function() {
+    Opera: function () {
         return navigator.userAgent.match(/Opera Mini/i);
     },
-    Windows: function() {
+    Windows: function () {
         return navigator.userAgent.match(/IEMobile/i);
     },
-    any: function() {
+    any: function () {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
@@ -176,18 +176,18 @@ function historySlider() {
 
 //Like
 function likeEf() {
-    jQuery('.like-product').on('click',  function() {
+    jQuery('.like-product').on('click', function () {
         jQuery(this).find('i').toggleClass('press');
         jQuery(this).find('i').removeClass('ion-ios-heart-outline');
         jQuery(this).find('span.like-product').toggleClass('press');
         if (jQuery(this).find('i').hasClass('press') || jQuery(this).find('i').hasClass('ion-ios-heart-outline')) {
-            jQuery(this).find('.output').html(function(i, val) {
+            jQuery(this).find('.output').html(function (i, val) {
                 return val * 1 + 1
             });
             jQuery(this).find('i').addClass('ion-ios-heart');
             jQuery(this).find('i').removeClass('ion-ios-heart-outline');
         } else {
-            jQuery(this).find('.output').html(function(i, val) {
+            jQuery(this).find('.output').html(function (i, val) {
                 return val * 1 - 1
             });
             jQuery(this).find('i').removeClass('ion-ios-heart');
@@ -198,18 +198,18 @@ function likeEf() {
 };
 
 //Document Ready
-jQuery(document).ready(function($) {
-    
+jQuery(document).ready(function ($) {
+
     //Navigation Sub Menu Triggering
-    jQuery('.menu-item-has-children, .page_item_has_children').hover(function() {
+    jQuery('.menu-item-has-children, .page_item_has_children').hover(function () {
         jQuery(this).children('.sub-menu').stop().slideDown(200);
-    }, 
-    function() {
-        jQuery(this).children('.sub-menu').stop().slideUp(200);
-    });
+    },
+        function () {
+            jQuery(this).children('.sub-menu').stop().slideUp(200);
+        });
 
     //Mobile Menu Open/Close 
-    jQuery('#open-mobile-menu').on('click', function() {
+    jQuery('#open-mobile-menu').on('click', function () {
         var self = jQuery(this);
         var mobileMenu = jQuery('.menu-wrap-2');
 
@@ -234,14 +234,14 @@ jQuery(document).ready(function($) {
 
     //Parallax Background on Desktop
     if (!isMobile.any()) {
-        jQuery(window).on('scroll', function() {
+        jQuery(window).on('scroll', function () {
             parallaxScroll();
         });
     };
 
     // Switch class on filter
     var showfilter = jQuery('.works-filter');
-    jQuery('button.nav').on('click', function() {
+    jQuery('button.nav').on('click', function () {
         var self = jQuery(this);
         self.toggleClass('open');
         showfilter.toggleClass('open');
@@ -260,10 +260,10 @@ jQuery(document).ready(function($) {
             slideSpeed: 300,
 
         });
-        prev.on('click', function() {
+        prev.on('click', function () {
             archSlider.trigger('owl.prev');
         });
-        next.on('click', function() {
+        next.on('click', function () {
             archSlider.trigger('owl.next');
         });
     };
@@ -278,10 +278,10 @@ jQuery(document).ready(function($) {
             slideSpeed: 300,
 
         });
-        prev.on('click', function() {
+        prev.on('click', function () {
             singleProjectSlider.trigger('owl.prev');
         });
-        next.on('click', function() {
+        next.on('click', function () {
             singleProjectSlider.trigger('owl.next');
         });
     };
@@ -316,10 +316,10 @@ jQuery(document).ready(function($) {
     var wrap = jQuery('.js-ui-search');
     var close = jQuery('.js-ui-close');
     var input = jQuery('.js-ui-text');
-    close.on('click', function() {
+    close.on('click', function () {
         wrap.toggleClass('open');
     });
-    input.on('transitionend webkitTransitionEnd oTransitionEnd', function() {
+    input.on('transitionend webkitTransitionEnd oTransitionEnd', function () {
         if (wrap.hasClass('open')) {
             input.focus();
         } else {
@@ -328,7 +328,7 @@ jQuery(document).ready(function($) {
     });
 
     //Finished loader
-    Pace.on("done", function() {
+    Pace.on("done", function () {
         jQuery(".cover").addClass('animated fadeOutRight').fadeOut(1000);
     });
 
@@ -375,20 +375,21 @@ jQuery(document).ready(function($) {
 
 // Translation function
 function translation(locale) {
-    jQuery.getJSON( `traduction/${locale}.json`, ( data ) => {
+    jQuery.getJSON(`traduction/${locale}.json`, (data) => {
         var items = [];
-        $.each( data, ( key, val ) => {
-          items.push(val);
-          console.log(key + val)
+        $.each(data, (key, val) => {
+            items.push(val);
+            console.log(key + val)
         });
-        $("#content").html(items[0]);
-        console.log(items[0])
-      });
+        $("#aboutus").html(items[0]);
+        $("#values").html(items[0]);
+        $("#chooseus").html(items[0]);
+    });
 }
 
 //Window Load
-jQuery(window).load(function($) {
-    
+jQuery(window).load(function ($) {
+
     /*Init Portfolio*/
     var container = jQuery("#work-grid");
     if (container.length > 0) {
@@ -400,7 +401,7 @@ jQuery(window).load(function($) {
     };
 
     //Filter Portfolio
-    jQuery('a.filter').on('click', function() {
+    jQuery('a.filter').on('click', function () {
         var to_filter = jQuery(this).attr('data-filter');
         if (to_filter == 'all') {
             container.isotope({
@@ -414,7 +415,7 @@ jQuery(window).load(function($) {
     });
 
     //Switch Classes portfolio
-    jQuery('.filter').on('click', function() {
+    jQuery('.filter').on('click', function () {
         jQuery('a.filter').removeClass('active');
         jQuery(this).addClass('active');
     });
