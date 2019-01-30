@@ -382,8 +382,8 @@ function translation(locale) {
             console.log(key + val)
         });
         $("#aboutus").html(items[0]);
-        $("#values").html(items[0]);
-        $("#chooseus").html(items[0]);
+        $("#values").html(items[1]);
+        $("#chooseus").html(items[2]);
     });
 }
 
