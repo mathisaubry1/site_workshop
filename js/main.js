@@ -370,8 +370,7 @@ jQuery(document).ready(function($) {
     new WOW().init();
 
     //Translation loading
-    translation(navigator.language.substring(0, 2));  
-
+    //translation(navigator.language.substring(0, 2));
 });
 
 // Translation function
@@ -380,9 +379,10 @@ function translation(locale) {
         var items = [];
         $.each( data, ( key, val ) => {
           items.push(val);
+          console.log(key + val)
         });
-        $("#article").html(items[0]);
-        console.log(data)
+        $("#content").html(items[0]);
+        console.log(items[0])
       });
 }
 
