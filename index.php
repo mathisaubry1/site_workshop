@@ -53,7 +53,6 @@
 </head>
 
 <body>
-
     <!-- Preloader -->
     <div class="cover"></div>
     <div class="header">
@@ -63,12 +62,52 @@
                     <img src="img/logo.png" alt="Logo">
                 </a>
             </div>
-            <div class="pull-right">
-                <img id="french" class="flags" src="img/flags/iconfinder_92_Ensign_Flag_Nation_france_2634519.png"
-                    height="30px">
-                <img id="english" class="flags" src="img/flags/iconfinder_273_Ensign_Flag_Nation_kingdom_2634450.png"
-                    height="30px">
+            <!-- Menu Hamburger (Default) -->
+            <button class="main-menu-indicator" id="open-button">
+                <span class="line"></span>
+            </button>
+            <div class="menu-wrap" style="background-image: url(img/nav_bg.jpg)">
+                <div class="menu-content">
+                    <div class="navigation">
+                        <span class="pe-7s-close close-menu" id="close-button"></span>
+                    </div>
+                    <nav class="menu">
+                        <div class="menu-list">
+                            <ul>
+                                <li><a href="#aboutus">About us</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#values">Values</a></li>
+                                <li><a href="#chooseus">Why choose us</a></li>
+                                <li><a href="#team">The team</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="hidden-xs">
+                        <div class="menu-social-media">
+                            <ul>
+                                <li><a href="https://www.facebook.com/Friday-Agency-2312534062315973/?modal=admin_todo_tour"><i
+                                            class="iconmoon-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/agency_friday"><i class="iconmoon-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/friday-agency-07376617a/"><i class="iconmoon-linkedin2"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-information">
+                            <ul>
+                                <li>friday.agency44@gmail.com</li>
+                                <li><img id="french" class="flags" src="img/flags/iconfinder_92_Ensign_Flag_Nation_france_2634519.png"
+                                        height="30px">
+                                    <img id="english" class="flags" src="img/flags/iconfinder_273_Ensign_Flag_Nation_kingdom_2634450.png"
+                                        height="30px">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- End of Menu Hamburger (Default) -->
         </div>
     </div>
 
@@ -77,7 +116,7 @@
         <div class="slider-wrapper">
             <div class="slider-description">
                 <div class="slider-description-inner">
-                    <h1>Friday<span>Agency</span></h1>
+                    <h1><span>Friday</span> Agency</h1>
                 </div>
                 <div class="cd-intro">
                     <div class="cd-headline clip">
@@ -97,16 +136,20 @@
     </div>
 
     <!-- Agency description -->
-    <div class="container margin-top">
+    <div id="aboutus" class="container margin-top">
         <div class="history-wrapper">
             <div class="col-md-6 wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s">
                 <div class="row">
                     <article id="article">
                         <h1>HISTORY OF AGENCY</h1>
                         <hr>
-                        <h4>WHO LOVES OR PURSUES OR DESIRES TO OBTAIN PAIN OF ITSELF, BUT BECAUSE OCCASIONALLY CIRCUMSTANCES OCCUR AND PAIN CAN PROCURE HIM SOME GREAT PLEASURE</h4>
+                        <h4>WHO LOVES OR PURSUES OR DESIRES TO OBTAIN PAIN OF ITSELF, BUT BECAUSE OCCASIONALLY
+                            CIRCUMSTANCES OCCUR AND PAIN CAN PROCURE HIM SOME GREAT PLEASURE</h4>
                         <p>
-                        <br/>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.</p>
+                            <br />Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                            velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                            suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.</p>
                     </article>
                 </div>
             </div>
@@ -114,7 +157,7 @@
     </div>
 
     <!-- Projects -->
-    <div class="container margin-top">
+    <div id="projects" class="container margin-top">
         <div class="main-title">
             <h1>PROJECTS</h1>
             <hr>
@@ -123,15 +166,16 @@
             <div class="row">
                 <div id="history-images" class="owl-carousel">
                     <div><img class="img-responsive center-block" src="img/projects/image_1.png" alt="About"></div>
+                    <div><img class="img-responsive center-block" src="img/projects/image_2.png" alt="About"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Chosing Us -->
-    <div class="container margin-top">
+    <!-- Valeurs -->
+    <div id="values" class="container margin-top">
         <div class="main-title">
-            <h1>VALEUR</h1>
+            <h1>VALUES</h1>
             <hr>
         </div>
         <div class="services-home-page">
@@ -167,9 +211,9 @@
         </div>
     </div>
 
-    <!-- Valeur -->
-    <div class="container margin-top">
-    <div class="main-title">
+    <!-- Choosing us -->
+    <div id="chooseus" class="container margin-top">
+        <div class="main-title">
             <h1>WHY CHOOSE US?</h1>
             <hr>
             <h6>Except to obtain some advantage from it</h6>
@@ -177,11 +221,11 @@
     </div>
 
     <!-- Team members -->
-    <div class="container margin-top">
+    <div id="team" class="container margin-top">
         <div class="main-title">
-            <h1>OUR WORK</h1>
+            <h1>THE TEAM</h1>
             <hr>
-            <h6>Laborious to obtain some advantage from it</h6>
+            <h6>The clique</h6>
         </div>
         <div class="portfolio-wrapper">
             <button class="nav">
@@ -348,7 +392,7 @@
     </div>
 
     <!-- Newsletter -->
-    <div class="container margin-top">
+    <div id="contact" class="container margin-top">
         <div class="newsletter">
             <div class="col-md-6">
                 <div class="row">
