@@ -59,7 +59,7 @@
         <div class="header">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="#">
                         <img src="img/logo.png" alt="Logo">
                     </a>
                 </div>

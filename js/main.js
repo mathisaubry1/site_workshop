@@ -1,13 +1,13 @@
 "use strict";
 
 //Tanslation
-$("#french").click(() => {
-    translation("fr");
-});
+// $("#french").click(() => {
+//     translation("fr");
+// });
 
-$("#english").click(() => {
-    translation("en");
-});
+// $("#english").click(() => {
+//     translation("en");
+// });
 
 //Esc Key 
 $.fn.escape = function(callback) {
