@@ -87,10 +87,9 @@
                     <div class="hidden-xs">
                         <div class="menu-social-media">
                             <ul>
-                                <li><a href="https://www.facebook.com/Friday-Agency-2312534062315973/?modal=admin_todo_tour"><i
-                                            class="iconmoon-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/agency_friday"><i class="iconmoon-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/friday-agency-07376617a/"><i class="iconmoon-linkedin2"></i></a></li>
+                                <li><a href="https://www.facebook.com/Friday-Agency-2312534062315973/?modal=admin_todo_tour" target="_blank"><i class="iconmoon-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/agency_friday" target="_blank"><i class="iconmoon-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/friday-agency-07376617a/" target="_blank"><i class="iconmoon-linkedin2"></i></a></li>
                             </ul>
                         </div>
 
@@ -256,7 +255,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/thierry-seguro-952610137/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/thierry-seguro-952610137/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +269,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/alexandre-desvall%C3%A9es-93b4a0122/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/alexandre-desvall%C3%A9es-93b4a0122/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -284,7 +283,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/mathis-aubry-b23418145/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/mathis-aubry-b23418145/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -298,7 +297,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/charles-huet-developpeur-web/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/charles-huet-developpeur-web/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -312,7 +311,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/arthur-gilot-3b27b913a/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/arthur-gilot-3b27b913a/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +325,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/faustine-badier-079606132/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/faustine-badier-079606132/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -340,7 +339,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="#"></a>
+                                <a class="main-portfolio-link" href="#" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -354,7 +353,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/nicolas-bolliet-b727a512a/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/nicolas-bolliet-b727a512a/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -368,7 +367,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="#"></a>
+                                <a class="main-portfolio-link" href="#" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -382,7 +381,7 @@
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/jfweb/"></a>
+                                <a class="main-portfolio-link" href="https://www.linkedin.com/in/jfweb/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -447,10 +446,9 @@
                     <div class="footer-inner">
                         <div class="footer-content">
                             <ul class="social-media">
-                                <li><a href="https://www.facebook.com/Friday-Agency-2312534062315973/?modal=admin_todo_tour"><i
-                                            class="iconmoon-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/agency_friday"><i class="iconmoon-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/friday-agency-07376617a/"><i class="iconmoon-linkedin2"></i></a></li>
+                                <li><a href="https://www.facebook.com/Friday-Agency-2312534062315973/?modal=admin_todo_tour" target="_blank"><i class="iconmoon-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/agency_friday" target="_blank"><i class="iconmoon-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/friday-agency-07376617a/" target="_blank"><i class="iconmoon-linkedin2"></i></a></li>
                             </ul>
                             <span class="copyright-mark">2019 - Friday Agency</span>
                         </div>
